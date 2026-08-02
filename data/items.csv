@@ -1,1 +1,102 @@
+
 Item_ID,Item_Name,Category,Genre,Tags,Rating
+M001,Inception,Movie,Sci-Fi,"Dreams, Mind, Technology, Mystery, Heist",8.8
+M002,The Dark Knight,Movie,Action,"Hero, Crime, Vigilante, Justice, Chaos",9.0
+M003,Interstellar,Movie,Sci-Fi,"Space, Black Hole, Time, Exploration, Survival",8.7
+M004,The Matrix,Movie,Sci-Fi,"AI, Cyberpunk, Virtual Reality, Action, Dystopia",8.7
+M005,Pulp Fiction,Movie,Crime,"Gangster, Nonlinear, Dialogue, Humor, Mob",8.9
+M006,Forrest Gump,Movie,Drama,"History, Life, Inspirational, Love, Destiny",8.8
+M007,The Shawshank Redemption,Movie,Drama,"Prison, Hope, Friendship, Justice, Escape",9.3
+M008,Gladiator,Movie,Action,"Rome, Revenge, Gladiator, Empire, Honor",8.5
+M009,The Godfather,Movie,Crime,"Mafia, Family, Power, Corruption, Crime",9.2
+M010,Spirited Away,Movie,Animation,"Magic, Spirits, Journey, Fantasy, Coming of Age",8.6
+M011,Parasite,Movie,Thriller,"Class, Dark Comedy, Social, Tension, Family",8.5
+M012,Whiplash,Movie,Drama,"Music, Jazz, Obsession, Ambition, Discipline",8.5
+M013,Alien,Movie,Horror,"Space, Creature, Survival, Sci-Fi, Isolation",8.5
+M014,Psycho,Movie,Horror,"Suspense, Psychological, Mystery, Classic, Killer",8.5
+M015,Casablanca,Movie,Romance,"Classic, WWII, Love, Sacrifice, Drama",8.5
+M016,La La Land,Movie,Romance,"Music, Hollywood, Romance, Dreams, Jazz",8.0
+M017,The Prestige,Movie,Mystery,"Magic, Rivalry, Illusion, Obsession, Twist",8.5
+M018,Memento,Movie,Mystery,"Memory, Amnesia, Investigation, Nonlinear, Revenge",8.4
+M019,Se7en,Movie,Crime,"Serial Killer, Detective, Dark, Mystery, Thriller",8.6
+M020,Fight Club,Movie,Drama,"Psychological, Subversion, Identity, Rebellion, Anarchy",8.8
+M021,The Silence of the Lambs,Movie,Thriller,"FBI, Psychological, Serial Killer, Investigation, Mind",8.6
+M022,Saving Private Ryan,Movie,Action,"WWII, Military, War, Brotherhood, Sacrifice",8.6
+M023,Schindler's List,Movie,Documentary,"History, WWII, Holocaust, Drama, Survival",9.0
+M024,Spider-Man: Into the Spider-Verse,Movie,Animation,"Multiverse, Superheroes, Animation, Action, Hero",8.4
+M025,The Lion King,Movie,Animation,"Kingdom, Animals, Disney, Coming of Age, Music",8.5
+M026,Toy Story,Movie,Animation,"Toys, Friendship, Adventure, Family, Pixar",8.3
+M027,Coco,Movie,Animation,"Music, Family, Tradition, Afterlife, Journey",8.4
+M028,WALL-E,Movie,Animation,"Robot, Future, Space, Romance, Planet",8.4
+M029,Monsters Inc,Movie,Animation,"Monsters, Comedy, Friendship, Workplace, Children",8.1
+M030,Up,Movie,Animation,"Adventure, Aging, Love, Journey, House",8.3
+M031,The Avengers,Movie,Action,"Superheroes, Teamup, Alien, Save the World, Comic",8.0
+M032,Avengers: Endgame,Movie,Action,"Time Travel, Superheroes, Finale, Action, Epic",8.4
+M033,Black Panther,Movie,Action,"Kingdom, Superheroes, Technology, Culture, Future",7.3
+M034,Mad Max: Fury Road,Movie,Action,"Post-Apocalyptic, Desert, Survival, High Octane, Vehicles",8.1
+M035,John Wick,Movie,Action,"Assassins, Revenge, Martial Arts, Gun fu, Underworld",7.4
+M036,Die Hard,Movie,Action,"Hostage, Skyscraper, Cop, Christmas, Action",8.2
+M037,Top Gun: Maverick,Movie,Action,"Aviation, Military, Pilot, Speed, Nostalgia",8.3
+M038,Dune,Movie,Sci-Fi,"Desert, Sci-Fi, Empire, Spice, Destiny",8.0
+M039,Blade Runner 2049,Movie,Sci-Fi,"Cyberpunk, AI, Android, Neon, Mystery",8.0
+M040,Ex Machina,Movie,Sci-Fi,"AI, Robotics, Turing Test, Manipulation, Future",7.7
+M041,Arrival,Movie,Sci-Fi,"Linguistics, Aliens, Time, Communication, Sci-Fi",7.9
+M042,The Martian,Movie,Sci-Fi,"Mars, Survival, Science, NASA, Isolation",8.0
+M043,Jurassic Park,Movie,Adventure,"Dinosaurs, Park, Science Gone Wrong, Island, Escape",8.2
+M044,Indiana Jones: Raiders of the Lost Ark,Movie,Adventure,"Archeology, Artifacts, Nazis, Journey, Legend",8.4
+M045,The Lord of the Rings: The Fellowship of the Ring,Movie,Fantasy,"Ring, Journey, Magic, Fellowship, Middle-earth",8.8
+M046,The Lord of the Rings: The Return of the King,Movie,Fantasy,"Epic Battle, Ring, Kingdom, Fantasy, Triumph",9.0
+M047,Harry Potter and the Sorcerer's Stone,Movie,Fantasy,"Wizards, Magic, School, Friendship, Fantasy",7.6
+M048,The Hobbit: An Unexpected Journey,Movie,Fantasy,"Dwarves, Quest, Dragon, Middle-earth, Adventure",7.8
+M049,Pan's Labyrinth,Movie,Fantasy,"Dark Fantasy, War, Magic, Monsters, Girl",8.2
+M050,The Princess Bride,Movie,Fantasy,"Fairy Tale, Romance, Swordplay, Humor, Quest",8.0
+M051,Superbad,Movie,Comedy,"Teen, High School, Party, Friendship, Misadventure",7.6
+M052,The Hangover,Movie,Comedy,"Vegas, Bachelor Party, Mystery, Hangover, Wild",7.7
+M053,Grand Budapest Hotel,Movie,Comedy,"Hotel, Eccentric, Theft, Murder Mystery, Style",8.1
+M054,Knives Out,Movie,Mystery,"Whodunit, Detective, Wealthy Family, Murder, Clues",7.9
+M055,Glass Onion,Movie,Mystery,"Tech Billionaire, Island, Murder, Whodunit, Puzzle",7.1
+M056,Shutter Island,Movie,Thriller,"Psychiatric, Island, Detective, Mind Twist, Mystery",8.2
+M057,Gone Girl,Movie,Thriller,"Disappearance, Marriage, Secrets, Manipulation, Crime",8.1
+M058,Zodiac,Movie,Crime,"Serial Killer, Journalism, Investigation, San Francisco, Cold Case",7.7
+M059,The Social Network,Movie,Drama,"Facebook, Startup, Lawsuit, Betrayal, Tech",7.8
+M060,Good Will Hunting,Movie,Drama,"Genius, Math, Therapy, Mentorship, Boston",8.3
+M061,Dead Poets Society,Movie,Drama,"Teacher, Boarding School, Poetry, Inspiration, Youth",8.1
+M062,The Truman Show,Movie,Drama,"Reality TV, Simulation, Media, Freedom, Awakening",8.2
+M063,Her,Movie,Romance,"AI, Future, Lonely, Virtual Assistant, Love",8.0
+M064,Eternal Sunshine of the Spotless Mind,Movie,Romance,"Memory, Breakup, Sci-Fi, Surreal, Love",8.3
+M065,Pride and Prejudice,Movie,Romance,"Class, England, Period Drama, Love, Family",7.8
+M066,The Notebook,Movie,Romance,"Memory, Decades, Summer Love, Passion, Letters",7.8
+M067,500 Days of Summer,Movie,Romance,"Nonlinear, Dating, Expectations, Reality, Heartbreak",7.7
+M068,The Conjuring,Movie,Horror,"Haunted House, Demons, Paranormal, Investigation, Exorcism",7.5
+M069,A Quiet Place,Movie,Horror,"Monsters, Silence, Family, Survival, Tension",7.5
+M070,Get Out,Movie,Horror,"Social Commentary, Hypnosis, Mystery, Psychological, Trap",7.8
+M071,Hereditary,Movie,Horror,"Family Cult, Grief, Supernatural, Trauma, Terror",7.3
+M072,The Shining,Movie,Horror,"Hotel, Isolation, Madness, Winter, Paranormal",8.4
+M073,The Thing,Movie,Horror,"Antarctica, Shape-shifter, Alien, Paranoia, Survival",8.2
+M074,Nightcrawler,Movie,Thriller,"Journalism, Crime, Ambition, Sociopath, Night",7.8
+M075,Prisoners,Movie,Thriller,"Abduction, Investigation, Vigilante, Morality, Dark",8.1
+M076,Sicario,Movie,Crime,"Cartel, Border, FBI, Morality, Escalation",7.6
+M077,No Country for Old Men,Movie,Crime,"Texas, Killer, Money, Fate, Lawman",8.2
+M078,Taxi Driver,Movie,Crime,"Vigilante, Insomnia, Isolation, New York, Decadence",8.2
+M079,Goodfellas,Movie,Crime,"Mob, Organized Crime, Rise and Fall, Gangster, 80s",8.7
+M080,Scarface,Movie,Crime,"Drugs, Miami, Power, Downfall, Immigrant",8.3
+M081,The Departed,Movie,Crime,"Undercover, Boston, Irish Mob, Cop, Mole",8.5
+M082,Catch Me If You Can,Movie,Crime,"Con Artist, FBI, Pilot, Fraud, Chase",8.1
+M083,Oppenheimer,Movie,Documentary,"Physics, WWII, Atomic Bomb, History, Trial",8.8
+M084,Free Solo,Movie,Documentary,"Climbing, Extreme Sports, Nature, Risk, Obsession",8.1
+M085,My Octopus Teacher,Movie,Documentary,"Nature, Ocean, Friendship, Wildlife, South Africa",8.1
+M086,13th,Movie,Documentary,"Justice, History, Race, Prison System, Law",8.2
+M087,Won't You Be My Neighbor?,Movie,Documentary,"Biography, TV, Kindness, Childhood, Inspiration",8.4
+M088,March of the Penguins,Movie,Documentary,"Penguins, Antarctica, Survival, Wildlife, Nature",7.5
+M089,Spider-Man: No Way Home,Movie,Action,"Multiverse, Villains, Superheroes, Friendship, Action",8.2
+M090,Guardians of the Galaxy,Movie,Sci-Fi,"Space, Humor, Misfits, Music, Action",8.0
+M091,Thor: Ragnarok,Movie,Action,"Gladiator, Space, Comedy, Gods, Destruction",7.9
+M092,Doctor Strange,Movie,Fantasy,"Sorcery, Multiverse, Dimensions, Time, Magic",7.5
+M093,Everything Everywhere All at Once,Movie,Sci-Fi,"Multiverse, Family, Existential, Kung Fu, Chaos",7.8
+M094,Spider-Man: Across the Spider-Verse,Movie,Animation,"Multiverse, Animation, Canon, Superheroes, Action",8.6
+M095,The Incredibles,Movie,Animation,"Superheroes, Family, Secret Identity, Action, Pixar",8.0
+M096,Ratatouille,Movie,Animation,"Chef, Paris, Food, Ambition, Pixar",8.1
+M097,Finding Nemo,Movie,Animation,"Ocean, Search, Fatherhood, Fish, Journey",8.2
+M098,Shrek,Movie,Animation,"Ogre, Parody, Fairy Tale, Friendship, Swamp",7.9
+M099,How to Train Your Dragon,Movie,Animation,"Dragons, Vikings, Friendship, Flight, Hero",8.1
+M100,Kung Fu Panda,Movie,Animation,"Martial Arts, Animal, Destiny, Humor, Training",7.6
