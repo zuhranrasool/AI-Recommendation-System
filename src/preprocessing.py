@@ -5,6 +5,8 @@ def clean_text(value):
     """
     Clean a text value by removing extra spaces
     and converting it to lowercase.
+
+    Missing values are replaced with an empty string.
     """
     if pd.isna(value):
         return ""
@@ -20,6 +22,8 @@ def clean_tags(value):
         "AI, Cyberpunk, Virtual Reality"
         ->
         "ai, cyberpunk, virtual reality"
+
+    Missing values are replaced with an empty string.
     """
     if pd.isna(value):
         return ""
@@ -35,11 +39,43 @@ def clean_tags(value):
     return ", ".join(cleaned_tags)
 
 
+def handle_missing_values(df):
+    """
+    Handle missing values in text-based columns.
+
+    Missing values are replaced with an empty string
+    so that they do not cause errors during preprocessing
+    or recommendation matching.
+    """
+    data = df.copy()
+
+    text_columns = [
+        "Category",
+        "Genre",
+        "Tags",
+        "Preferred_Category",
+        "Preferred_Genre",
+        "Preferred_Tags"
+    ]
+
+    for column in text_columns:
+        if column in data.columns:
+            data[column] = data[column].fillna("")
+
+    return data
+
+
 def preprocess_items(items_df):
     """
     Preprocess the items dataset.
+
+    Steps:
+    1. Handle missing values.
+    2. Clean category.
+    3. Clean genre.
+    4. Clean tags.
     """
-    items = items_df.copy()
+    items = handle_missing_values(items_df)
 
     items["Category"] = items["Category"].apply(clean_text)
     items["Genre"] = items["Genre"].apply(clean_text)
@@ -51,8 +87,14 @@ def preprocess_items(items_df):
 def preprocess_users(users_df):
     """
     Preprocess the users dataset.
+
+    Steps:
+    1. Handle missing values.
+    2. Clean preferred category.
+    3. Clean preferred genre.
+    4. Clean preferred tags.
     """
-    users = users_df.copy()
+    users = handle_missing_values(users_df)
 
     users["Preferred_Category"] = (
         users["Preferred_Category"].apply(clean_text)
@@ -72,6 +114,10 @@ def preprocess_users(users_df):
 def preprocess_data(items_df, users_df):
     """
     Preprocess both items and users datasets.
+
+    Returns:
+        processed_items: Cleaned items DataFrame
+        processed_users: Cleaned users DataFrame
     """
     processed_items = preprocess_items(items_df)
     processed_users = preprocess_users(users_df)
