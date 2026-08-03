@@ -65,6 +65,29 @@ def handle_missing_values(df):
     return data
 
 
+def combine_item_features(items_df):
+    """
+    Combine relevant item attributes into a single
+    feature column for recommendation matching.
+
+    The combined features include:
+    - Category
+    - Genre
+    - Tags
+    """
+    items = items_df.copy()
+
+    items["Combined_Features"] = (
+        items["Category"].fillna("")
+        + " "
+        + items["Genre"].fillna("")
+        + " "
+        + items["Tags"].fillna("")
+    ).str.strip()
+
+    return items
+
+
 def preprocess_items(items_df):
     """
     Preprocess the items dataset.
@@ -74,12 +97,15 @@ def preprocess_items(items_df):
     2. Clean category.
     3. Clean genre.
     4. Clean tags.
+    5. Combine relevant features.
     """
     items = handle_missing_values(items_df)
 
     items["Category"] = items["Category"].apply(clean_text)
     items["Genre"] = items["Genre"].apply(clean_text)
     items["Tags"] = items["Tags"].apply(clean_tags)
+
+    items = combine_item_features(items)
 
     return items
 
